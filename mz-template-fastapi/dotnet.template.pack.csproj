@@ -23,7 +23,7 @@
   <ItemGroup>
     <Content 
       Include="mz-template-fastapi\**\*" 
-      Exclude="mz-template-fastapi\venv\**\*;mz-template-fastapi\**\__pycache__\**\*; mz-template-fastapi\**\*.pyc" />
+      Exclude="mz-template-fastapi\venv\**\*;mz-template-fastapi\.env;mz-template-fastapi\**\__pycache__\**\*; mz-template-fastapi\**\*.pyc" />
     <Compile Remove="**\*" />
   </ItemGroup>
 
