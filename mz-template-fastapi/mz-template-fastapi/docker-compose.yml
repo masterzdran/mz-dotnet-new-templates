@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  webapp:
+    image: mz-python-project-template
+    container_name: mz-python-project-template
+    environment:
+    # Update the values
+      - ENTRA_TENANT_ID=''              
+      - ENTRA_CLIENT_ID=''                
+      - ENTRA_SCOPE=''                      
+      - AAD_INSTANCE=''                     
+      - DATABASE_URL=''                      
+      - STORAGE_ACCOUNT_URL=''      
+      - STORAGE_ACCOUNT_KEY=''      
+      - STORAGE_ACCOUNT_NAME='' 
+    ports:
+      - "8000:80"
+    restart: always
