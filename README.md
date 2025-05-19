@@ -1,9 +1,21 @@
-# dotnet new project templates
+# mz-dotnet-new-templates
 
-A set of project accelerators to boost the projects.
+A collection of project accelerators for quickly bootstrapping new projects using the `dotnet new` templating system.
 
-* Python: Fast API template
+## Available Templates
 
+- **Python: FastAPI Project Template**  
+  A production-ready FastAPI template with modular structure, Azure AD authentication, OpenTelemetry, Docker support, and more.
+
+---
+
+## Installation
+
+To install these templates globally using the .NET CLI:
+
+```sh
+dotnet new install <PATH_TO_THIS_REPOSITORY>
+```
 
 # Contributors
 * [@masterzdran](https://github.com/masterzdran)
