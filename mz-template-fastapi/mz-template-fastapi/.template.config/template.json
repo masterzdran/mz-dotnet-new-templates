@@ -1,9 +1,9 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "Nuno Cancelo",
-    "classifications": ["Python", "FastAPI", "Project Accelerator" ],
+    "classifications": ["Python", "FastAPI", "Project Accelerator","Masterzdran" ],
     "identity": "mz.fastapi.project.accelerator",
-    "name": "FastAPI Project Template",
+    "name": "Masterzdran Python Project Template",
     "shortName": "mz.fastapi.project.accelerator",
     "tags": {
       "language": "Python",

@@ -2,12 +2,12 @@
  <PropertyGroup>
     <PackageType>Template</PackageType>
     <PackageVersion>1.0.0</PackageVersion>
-    <PackageId>masterzdran.fastapi.project.accelerator</PackageId>
+    <PackageId>masterzdran.react.fastapi.project.accelerator</PackageId>
     <PackageIcon>project.template.64.png</PackageIcon>
-    <Title>Masterzdran dotnet new templates for python</Title>
+    <Title>Masterzdran dotnet new templates for react with backend</Title>
     <Authors>Nuno Cancelo</Authors>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
-    <PackageTags>dotnet-new</PackageTags>
+    <PackageTags>dotnet-new, masterzdran, python, react, bff</PackageTags>
     <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
@@ -22,13 +22,13 @@
 
   <ItemGroup>
     <Content 
-      Include="mz-template-fastapi\**\*" 
-      Exclude="mz-template-fastapi\venv\**\*;mz-template-fastapi\.env;mz-template-fastapi\**\__pycache__\**\*; mz-template-fastapi\**\*.pyc" />
+      Include="mz-template-react-fastapi-bff\**\*" 
+      Exclude="mz-template-react-fastapi-bff\**\venv\**\*;mz-template-react-fastapi-bff\**\.env;mz-template-react-fastapi-bff\**\__pycache__\**\*;mz-template-react-fastapi-bff\**\node_modules\**\*; mz-template-react-fastapi-bff\**\*.pyc" />
     <Compile Remove="**\*" />
   </ItemGroup>
 
   <ItemGroup>
-      <Content Include="mz-template-fastapi\\readme.md">
+      <Content Include="mz-template-react-fastapi-bff\readme.md">
         <Pack>true</Pack>
         <PackagePath>readme.md</PackagePath>
       </Content>

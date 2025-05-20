@@ -1,0 +1,13 @@
+local.settings.json
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+.git
+.gitignore
+.pytest_cache
+tests/
+docs/
+*.md

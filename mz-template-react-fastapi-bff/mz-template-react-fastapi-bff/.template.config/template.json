@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Nuno Cancelo",
+    "classifications": ["React", "Python", "FastAPI", "Project Accelerator","Masterzdran" ],
+    "identity": "mz-template-react-fastapi-bff.project.accelerator",
+    "name": "Masterzdran React with Python backend Project Template",
+    "shortName": "mz-template-react-fastapi-bff",
+    "tags": {
+      "language": "Python",
+      "type": "project"
+    },
+    "sourceName": "MzPythonProjectTemplate",
+    "preferNameDirectory": true
+}
